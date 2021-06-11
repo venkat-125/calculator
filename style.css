@@ -1,0 +1,86 @@
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    height: 100vh;
+    background: linear-gradient(to right, #a1dfab, rgb(196, 23, 52));
+  }
+  
+
+  .main-container {
+    width: 227px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+  
+  h1{
+      font-weight: bold;
+      text-align: center;
+      color: green;
+      padding: 10px 0px;
+  }
+  .viewer {
+    font-size: 24px;
+    padding: 10px;
+    width: 64%;
+    color: #ffffff;
+    border: 0px;
+    background-color: rgba(42, 50, 113, 0.28);
+}
+  
+.clr-button{
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(42, 50, 113, 0.28);
+    color: #ffffff;
+    border: 0px;
+}
+  /* Styling Buttons in Global */
+  .button {
+    width: 50px;
+    height: 50px;
+    margin: 5px 5px 0px 0px;
+    font-size: 24px;
+    cursor: pointer;
+    background-color: rgba(42, 50, 113, 0.28);
+    color: #ffffff;
+    border: 0px;
+  }
+ 
+  .section{
+    margin: 20px 0px;
+  }
+  h4{
+    color: white;
+    padding: 10px 0px;
+  }
+  .btn{
+    background-color: green;
+    padding: 5px 20px;
+    border: none;
+    color: white;
+    font-size: 12px;
+  }
+  #min{
+    float: right;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 100px;
+    margin-top: -2px;
+  }
+  #max{
+    float: right;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 85px;
+    margin-top: -2px;
+  }
